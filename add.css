@@ -1,0 +1,107 @@
+body{
+    height: 100svh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;position: fixed;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: radial-gradient(plum,pink,plum);
+    border-radius: 10px;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+  .table:hover {
+    background: radial-gradient(rgb(113, 195, 237),blueviolet,rgb(113, 195, 237));
+  }
+  .table th, .table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    font-style: italic;
+  }
+  .table th {
+    background-color: rgb(91, 174, 207);
+  }
+  .table button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: bisque;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-style: italic;
+  }
+  .table button:hover{
+    background-color: azure;
+  }
+  #studentTable{
+    display: none;
+  }
+  #addTable{
+    background-color: azure;
+    font-style: italic;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  #addTable:hover{
+    background-color: peachpuff;
+  }
+  #addButton{
+    background-color: azure;
+    font-style: italic;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  #addButton:hover{
+    background-color: peachpuff;
+  }
+  /* button{
+    background-color: #a7c957;
+      cursor: pointer;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  #add_button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 50px;
+    color: white;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    margin-top: 50px;
+    border: none;
+  }
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: radial-gradient(circle, rgba(251,205,63,0.6755952380952381) 31%, rgba(252,70,107,1) 100%);
+  
+  }
+  button:hover{
+    transform: scale(1.1);
+  
+  }
+  #my_table
+  {
+    margin-top: 50px
+  
+  } */
+  /* img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+} */
